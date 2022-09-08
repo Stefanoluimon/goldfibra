@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+html {
+  
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: #fff;    
+}
+
+.root header {
+    background-color: #0C2C4C;
+    height: 10vh;
+    display: grid;
+    align-content: center;
+}
+
+.root .header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 196px;
+
+}
+
+.nav-bar {
+    display: grid;
+    align-content: center;
+
+    
+}
+
+.header .nav-bar .box-ul {
+    height:30px;
+    display: flex;
+    margin: 0;   
+}
+
+.header .nav-bar .box-ul li {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;   
+    font-size: 1.5rem; 
+
+}
+
+.box-ul li:hover {
+color: #fff;
+}
+
+
+.bar-cta {
+    width: 100%;
+    height: 6vh;
+    background-color: #424141;
+    display: grid;
+    align-content: center;
+}
+
+.bar-cta .info-cta {
+    margin: 0 196px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: end;
+}
+
+.bar-cta img {
+    margin-right: 10px;
+}
+
+.bar-cta a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.banner-hero {
+    background-color: #838383;
+    width: 100%;
+    height: auto;
+}
+.banner-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-hero img {
+    height: 100%;
+    width: 100%;
+}
+
+.plan-price{
+    width: 100%;
+    height: 926px;
+    background-color: #0C2C4C;
+}
+
+
+.plan-price .content {
+    padding: 50px 196px;
+}
+
+.content .content-title h2{
+    color: #fff;
+    font-size: 2.25rem; 
+    margin-bottom: 22px;
+}
+.content .content-title p{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 44px;
+}
+
+.content .content-cards {
+    background-color: #fff;
+    border-radius: 8px;
+    height: 631px;
+    padding: 43px 30px;
+    display: flex;
+}
+
+.content-cards .type-plan {
+    background-color: #0C2C4C;
+    width: 326px;
+    height: 100%;
+    margin-right:10px;
+}
+
+    .type-plan .opc {
+        color: #fff;
+        width: auto;
+        border-bottom: 1px solid white;
+    }
+
+    .type-plan .opc h3{
+        font-size: 1.75rem;
+        margin: 12.17px auto 5px 12.17px;
+    }
+
+
+    .type-plan .opc p{
+        font-size: 1rem;
+        margin: 0 auto 12.17px 12.17px;
+    }
+
+
+ 
+
+.content-cards .type-price {
+    background-color: #1e67b1;
+    width: 100%;
+    height: 100%;
+}
+
+.type-price {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.type-price .card:nth-child(1),
+.type-price .card:nth-child(3),
+.type-price .card:nth-child(5){
+    background-color: red;
+}
+
+.info-cards {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.info-cards .info-margin {
+    margin: 61px 141px;
+
+}
+
+.info-margin .title {
+    font-size: 2.62rem;
+    text-align: center;
+    margin-bottom: 32px;
+}
+@media (max-width:768px){
+    .info-margin .title{
+        font-size: 1.6rem;
+    }
+}
+
+.info-margin .cards-drag {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.cards-drag .cards-img {
+    display: flex;
+}
+.cards-img .card img {
+    width: 100%;
+    height: auto;
+}
+.cards-img .card h3{
+ font-size: 2.25rem;
+}
+.cards-img .card p{
+    font-size: 1.6rem;
+}
+.cards-img .card:nth-child(1) {
+    margin-right: 42px;
+}
+
+.cards-img .card:nth-child(3) {
+    margin-left: 42px;
+}
+.cards-drag .arrow{
+    margin: auto 0 ;
+}
+.chamacao{
+    width: 100%;
+    height: 100%;
+    background-color: #4C4C4C;
+    
+}
+.chamacao .conteudo{
+    margin: 61px 141px;
+    
+    
+}
+.chamacao .conteudo .margin-conteudo{
+   display: flex;
+  
+}
+
+.chamacao .conteudo .img{
+    width: 603px;
+    height: 627px;
+    background: transparent;
+    margin: 60px 50px;
+    margin-right: auto;
+    
+}
+.conteudo .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.chamacao .conteudo .whts-copy{
+    display: grid;
+    margin: 60px;
+    margin-right: 46px;
+}
+
+.chamacao .conteudo .whts-copy .copy{
+    
+    width: 755px;
+    height: 435px;
+    background: transparent;
+    
+}
+.chamacao .conteudo .whts-copy .whts{
+    width: 370px;
+    height: 71px;
+    border:  4px solid #7AD06D ;
+    background-color: transparent;
+    margin-top: 120px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px ;
+    
+} 
+.whts-copy .whts a{
+    text-decoration: none;
+    color: #7AD06D;
+    font-size: 22px;
+
+}
+
+.whts-copy .copy h1{
+color: #fff;
+margin:10px 50px;
+}
+.whts-copy .copy p{
+    margin: 0px 50px;
+    color: #fff;
+}
+
